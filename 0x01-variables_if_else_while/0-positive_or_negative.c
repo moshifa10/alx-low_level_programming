@@ -1,6 +1,6 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include<stdlib.h>
+#include<time.h>
+#include<stdio.h>
 
 /**
  * main - print if the number is positive, zero, or negative
@@ -26,7 +26,7 @@ else if (n == 0)
 }
 else if (n < 0 )
 {
-	printf("%i is negetive\n", n);
+	printf("%i is negative\n", n);
 }
 return (0);
 }
